@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Naawi-Oodena</title>
+<link rel="stylesheet" href="Css/styles.css" />
+<style>
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #003836;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; /* Pushes footer to bottom */
+}
+
+footer a {
+    color: #373938;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+form {
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+label, input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+</style>
+    <div class="backround"></div>
+    <header>
+        <nav class="navbar">
+            <!-- Navigation bar to get around the webpage -->
+            <ul>
+                    <!-- Unordered list for navigation items -->
+                    <li><a href="index.html"><span style="color: whitesmoke;">Naawi-Oodena</span></a></li>
+                    <!-- Link to the homepage  -->
+                    <li><a href="contact.html"><span style="color: whitesmoke;">Contact</span></a></li>
+                    <!-- Link to the page to contact us and add a comment for us -->
+                    
+                </ul>
+        </nav>
+    </header>
+    <!-- nav bar to get around the webpage -->
+</head>
+<body>
+
+
+<main>    
+    <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2025 Naawi-Oodena Project</p>
+</footer>
+</body>
+</html>
+
