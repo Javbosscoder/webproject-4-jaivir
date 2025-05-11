@@ -1,12 +1,4 @@
 
-body {
-  background-image: url('c:\Users\jaHothi\Downloads\ChatGPT Image May 8, 2025, 01_41_30 PM.png'); /* adjust path as needed */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-top: 60px;
-}
-
 .navbar {
   position: fixed;
   top: 0;
@@ -16,7 +8,7 @@ body {
 
 /* Keep your existing styles */
 .navbar ul {
-  background-color: #373938;
+  background-color: #003836;
   list-style-type: none;
   padding: 0px;
   margin: 0px;
@@ -65,4 +57,11 @@ footer a {
 
 h1 {
   text-align: center;
+}
+
+.sigma {
+  background: black;
+  height: 10px;
+  margin: 5px;
+  border-radius: 5px;
 }
