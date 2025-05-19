@@ -79,7 +79,7 @@ footer a {
   transform: scale(1.1);
   transition: 0.3s;
 }
-.info-link {
+.info-link:hover {
   color: red;
   transform: scale(1.1);
   transition: 0.3s;
@@ -143,11 +143,11 @@ figcaption {
 }
 
 .housing-item img {
-  width: 100%;
+  width: 450px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   margin-bottom: 10px;
-  height: auto;
+  height: 550px;
   object-fit: cover;
 }
 
@@ -158,4 +158,11 @@ figcaption {
 .housing-item p {
   font-size: 0.95rem;
   color: #333;
+}
+
+.aaa {
+  background: black;
+  height: 10px;
+  margin: 5px;
+  border-radius: 5px;
 }
