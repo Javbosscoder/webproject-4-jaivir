@@ -1,3 +1,4 @@
+/* I chose dark green (#003836) and its lighter shade for a calm, natural feel that reflects land and culture. White text and icons stand out clearly on the dark background, while grey keeps footer links subtle, Red on hover adds a bit of contrast to make links more noticeable and interactive.*/
 
 .navbar {
   position: fixed;
@@ -78,6 +79,11 @@ footer a {
   transform: scale(1.1);
   transition: 0.3s;
 }
+.info-link {
+  color: red;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 
 .sigma {
   background: black;
@@ -123,3 +129,33 @@ figcaption {
       animation: fadeIn 1s ease forwards;
     }
 
+.housing-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.housing-item {
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.housing-item img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+  height: auto;
+  object-fit: cover;
+}
+
+.housing-item h3 {
+  margin: 10px 0 5px;
+}
+
+.housing-item p {
+  font-size: 0.95rem;
+  color: #333;
+}
