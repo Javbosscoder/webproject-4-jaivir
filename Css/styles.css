@@ -112,6 +112,7 @@ figcaption {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .alpha {
@@ -161,6 +162,101 @@ figcaption {
 }
 
 .aaa {
+  background: black;
+  height: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.totoktoktokotk {
+  font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 250px;
+}
+
+.sigmasig {
+  float: right;
+  margin-left: 20px;
+  padding: 25px;
+  width: 25%;
+  height: 50%;
+  
+}
+
+.alphimg{
+  margin-left: 450px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-top: 80px;
+}
+
+.sigline{
+  background: black;
+  height: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Optional: aligns text vertically with the image */
+}
+
+.image {
+  width: 25%; 
+  height: 50%;
+  margin-right: 20px; /* Space between image and paragraph */
+  margin-bottom: 20px; /* Space between image and footer */
+}
+
+.toomanyclassesanddivs {
+  background: black;
+  height: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.sigimg {
+  margin-left: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+p {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.holysolong {
+  background: black;
+  height: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.sigimaalphipha {
+  margin-left: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.anotherdivwhyyyy {
+  background: black;
+  height: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.lastimg {
+  margin-left: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.lastdiv {
   background: black;
   height: 10px;
   margin: 5px;
